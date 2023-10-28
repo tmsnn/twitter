@@ -9,7 +9,7 @@ function Footer() {
       </div>
       <div className="footer-section">
       <h3 className='bold'>Help</h3>
-        <p>If you have any questions, please contact us:</p>
+        <p>If you have any questions, please fix it by yourself:</p>
         <p>twitterhelp.kz</p>
       </div>
       <div className="footer-section">
