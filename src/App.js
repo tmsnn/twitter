@@ -11,20 +11,15 @@ import SignUp from './components/SignUp';
 import "./App.css";
 
 import React, { useEffect, useState } from 'react';
-import { fetchApartments } from './mockApi';
+import { fetchPosts } from './mockApi';
+
 
 
 function App() {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    setPosts()
-      .then((data) => {
-        setPosts(data);
-      })
-      .catch((error) => {
-        console.error('Ошибка при загрузке данных:', error);
-      });
+        setPosts(posts);
   }, []);
 
   return (
@@ -48,3 +43,4 @@ function App() {
 }
 
 export default App;
+
